@@ -1,0 +1,332 @@
+{
+	"tokenColors": [
+		{
+			"settings": {
+				"background": "#FFFFF2",
+				"foreground": "#383B3D"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"foreground": "#bcb9ca"
+			}
+		},
+		{
+			"name": "Property",
+			"scope": "entity.name.property",
+			"settings": {
+				"foreground": "#559b55",
+				"background": "#84e18413"
+			}
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"foreground": "#55585C",
+				"background": "#D7FC9763"
+			}
+		},
+		{
+			"name": "Regexp",
+			"scope": "string.regexp",
+			"settings": {
+				"foreground": "#cfa600",
+				"background": "#ecc73355"
+			}
+		},
+		{
+			"name": "Regexp",
+			"scope": "string.regexp.characterclass",
+			"settings": {
+				"foreground": "#29bf29"
+			}
+		},
+		{
+			"name": "Regexp Operator",
+			"scope": "regexp-operator",
+			"settings": {
+				"foreground": "#b00067"
+			}
+		},
+		{
+			"name": "Number",
+			"scope": "constant.numeric",
+			"settings": {
+				"foreground": "#403C00",
+				"background": "#D6B91700"
+			}
+		},
+		{
+			"name": "Built-in constant",
+			"scope": "constant.language",
+			"settings": {
+				"foreground": "#850100",
+				"background": "#eb02001F"
+			}
+		},
+		{
+			"name": "User-defined constant",
+			"scope": [
+				"constant.character",
+				"constant.other"
+			],
+			"settings": {
+				"foreground": "#7A55AD"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": "variable",
+			"settings": {
+				"foreground": "#007ca6"
+			}
+		},
+		{
+			"name": "Variable Punctuation",
+			"scope": "punctuation.definition.variable",
+			"settings": {
+				"foreground": "#49a3be"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": "keyword",
+			"settings": {
+				"foreground": "#aa4f84"
+			}
+		},
+		{
+			"name": "Storage",
+			"scope": "storage",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#B5761D"
+			}
+		},
+		{
+			"name": "Storage type",
+			"scope": "storage.type",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#6F8000"
+			}
+		},
+		{
+			"name": "Class name",
+			"scope": "entity.name.class",
+			"settings": {
+				"foreground": "#0b8db5"
+			}
+		},
+		{
+			"name": "Attribute Name",
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"foreground": "#0b8db5",
+				"fontStyle": "bold",
+				"background": "#00C8FF1E"
+			}
+		},
+		{
+			"name": "Inherited class",
+			"scope": "entity.other.inherited-class",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#7EAFE9"
+			}
+		},
+		{
+			"name": "Function name",
+			"scope": "entity.name.function",
+			"settings": {
+				"foreground": "#0b8db5",
+				"fontStyle": "bold",
+				"background": "#00C8FF2E"
+			}
+		},
+		{
+			"name": "Function argument",
+			"scope": "variable.parameter",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#006E8C"
+			}
+		},
+		{
+			"name": "Tag name",
+			"scope": "entity.name.tag",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#9e5781",
+				"background": "#d072a91e"
+			}
+		},
+		{
+			"name": "Tag attribute",
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"foreground": "#0b8db5"
+			}
+		},
+		{
+			"name": "Library function",
+			"scope": "support.function",
+			"settings": {
+				"foreground": "#B00084"
+			}
+		},
+		{
+			"name": "Shell function",
+			"scope": "meta.function",
+			"settings": {
+				"foreground": "#B00084"
+			}
+		},
+		{
+			"name": "Shell function",
+			"scope": "meta.function-call",
+			"settings": {
+				"foreground": "#956883"
+			}
+		},
+		{
+			"name": "Library constant",
+			"scope": "support.constant",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#DB7C6D"
+			}
+		},
+		{
+			"name": "Library class/type",
+			"scope": [
+				"support.type",
+				"support.class"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#49a3be"
+			}
+		},
+		{
+			"name": "Library variable",
+			"scope": "support.other.variable",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#0DAB79"
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": "invalid",
+			"settings": {
+				"foreground": "#F92672"
+			}
+		},
+		{
+			"name": "Invalid deprecated",
+			"scope": "invalid.deprecated",
+			"settings": {
+				"background": "#AE81FF",
+				"foreground": "#F8F8F0"
+			}
+		},
+		{
+			"name": "Emmet Preview",
+			"scope": "region.accent",
+			"settings": {
+				"foreground": "#F92672"
+			}
+		},
+		{
+			"name": "MultiMarkdown Metadata",
+			"scope": "meta.header.multimarkdown",
+			"settings": {
+				"background": "#AAAAAA66",
+				"foreground": "#AAAAAA"
+			}
+		},
+		{
+			"name": "MultiMarkdown Metadata",
+			"scope": [
+				"meta.header.multimarkdown keyword.other",
+				"meta.header.multimarkdown string"
+			],
+			"settings": {
+				"background": "#AAAAAA66",
+				"foreground": "#AAAAAA"
+			}
+		},
+		{
+			"name": "Markdown Headline Marker",
+			"scope": "punctuation.definition.heading",
+			"settings": {
+				"foreground": "#49a3be"
+			}
+		},
+		{
+			"name": "Markdown Headline",
+			"scope": "markup.heading",
+			"settings": {
+				"foreground": "#AE81FF",
+				"background": "#AE81FF22"
+			}
+		},
+		{
+			"name": "Markdown Code Block",
+			"scope": "markup.raw.block.markdown",
+			"settings": {
+				"background": "#AAAAAA22"
+			}
+		},
+		{
+			"name": "Markdown Fenced Code Block",
+			"scope": "markup.raw.code-fence",
+			"settings": {
+				"background": "#AAAAAA22"
+			}
+		},
+		{
+			"name": "Markdown Fenced Code Block Delimter",
+			"scope": "meta.code-fence",
+			"settings": {
+				"background": "#AAAAAA22"
+			}
+		},
+		{
+			"name": "Markdown Block Quote",
+			"scope": "markup.quote.markdown",
+			"settings": {
+				"background": "#AAAAAA22",
+				"foreground": "#33333399"
+			}
+		},
+		{
+			"name": "Markdown List Punctuation",
+			"scope": "punctuation.definition.list_item.markdown",
+			"settings": {
+				"foreground": "#d072a9"
+			}
+		},
+		{
+			"name": "Markdown Inline Link",
+			"scope": "markup.underline.link.markdown",
+			"settings": {
+				"fontStyle": "underline",
+				"foreground": "#33333366"
+			}
+		}
+	],
+	"colors": {
+		"editor.background": "#FFFFF2",
+		"editorCursor.foreground": "#CC00FF",
+		"editor.foreground": "#383B3D",
+		"editorWhitespace.foreground": "#B4B6C233",
+		"editor.lineHighlightBackground": "#fff8db88",
+		"editor.selectionBackground": "#94c9d952"
+	},
+	"name": "Lucky Charms"
+}

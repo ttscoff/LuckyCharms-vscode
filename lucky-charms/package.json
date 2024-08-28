@@ -1,0 +1,27 @@
+{
+  "name": "lucky-charms",
+  "displayName": "lucky-charms",
+  "description": "A light theme for VS Code",
+  "version": "0.0.1",
+  "publisher": "ttscoff",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ttscoff/lucky-charms.git"
+  },
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lucky Charms",
+        "uiTheme": "vs",
+        "path": "./themes/Lucky Charms-color-theme.json"
+      }
+    ]
+  }
+}
